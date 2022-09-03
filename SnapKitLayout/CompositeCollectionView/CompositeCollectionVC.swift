@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CompositeCollectionVC.swift
 //  SnapKitLayout
 //
 //  Created by JUNO on 2022/09/02.
@@ -7,13 +7,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class CompositeCollectionVC: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .blue
     }
-
-
 }
-
