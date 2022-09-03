@@ -125,7 +125,7 @@ extension TableVC: UITableViewDataSource {
             list.remove(at: indexPath.row)
             tableview.deleteRows(at: [indexPath], with: .automatic)
         } else {
-            list.insert("X Cell", at: indexPath.row)
+            list.insert("XX Cell", at: indexPath.row)
             tableview.insertRows(at: [indexPath], with: .automatic)
         }
     }
