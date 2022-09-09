@@ -20,7 +20,7 @@ class VerticalCollectionVC: UIViewController {
         view.dataSource = self
         view.delegate = self
 
-        view.register(SampleCell.self, forCellWithReuseIdentifier: "sampleCell")
+        view.register(SampleVerticalCell.self, forCellWithReuseIdentifier: "sampleCell")
         
         return view
     }()
@@ -76,7 +76,7 @@ extension VerticalCollectionVC: UICollectionViewDataSource, UICollectionViewDele
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "sampleCell", for: indexPath) as? SampleCell else { return UICollectionViewCell() }
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "sampleCell", for: indexPath) as? SampleVerticalCell else { return UICollectionViewCell() }
         cell.initCell(title: titleList[indexPath.row],indexPath: indexPath.row)
         cell.delegate = self
         

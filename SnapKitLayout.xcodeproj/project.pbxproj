@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B839EB8A28CB221A00233A0A /* SampleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B839EB8928CB221A00233A0A /* SampleCell.swift */; };
+		B839EB8A28CB221A00233A0A /* SampleVerticalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B839EB8928CB221A00233A0A /* SampleVerticalCell.swift */; };
+		B839EB8C28CB54A000233A0A /* SampleHorizontalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B839EB8B28CB54A000233A0A /* SampleHorizontalCell.swift */; };
 		B87DD97928C2434B00C8D312 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87DD97828C2434B00C8D312 /* AppDelegate.swift */; };
 		B87DD97B28C2434B00C8D312 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87DD97A28C2434B00C8D312 /* SceneDelegate.swift */; };
 		B87DD97D28C2434B00C8D312 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87DD97C28C2434B00C8D312 /* MainViewController.swift */; };
@@ -22,7 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B839EB8928CB221A00233A0A /* SampleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCell.swift; sourceTree = "<group>"; };
+		B839EB8928CB221A00233A0A /* SampleVerticalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleVerticalCell.swift; sourceTree = "<group>"; };
+		B839EB8B28CB54A000233A0A /* SampleHorizontalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleHorizontalCell.swift; sourceTree = "<group>"; };
 		B87DD97528C2434B00C8D312 /* SnapKitLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapKitLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B87DD97828C2434B00C8D312 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B87DD97A28C2434B00C8D312 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,7 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				B87DD99128C2470400C8D312 /* VerticalCollectionVC.swift */,
-				B839EB8928CB221A00233A0A /* SampleCell.swift */,
+				B839EB8928CB221A00233A0A /* SampleVerticalCell.swift */,
 			);
 			path = VerticalCollectionView;
 			sourceTree = "<group>";
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				B87DD99328C2471900C8D312 /* HorizontalCollectionVC.swift */,
+				B839EB8B28CB54A000233A0A /* SampleHorizontalCell.swift */,
 			);
 			path = HorizontalCollectionView;
 			sourceTree = "<group>";
@@ -202,11 +205,12 @@
 			files = (
 				B87DD99228C2470400C8D312 /* VerticalCollectionVC.swift in Sources */,
 				B87DD97D28C2434B00C8D312 /* MainViewController.swift in Sources */,
-				B839EB8A28CB221A00233A0A /* SampleCell.swift in Sources */,
+				B839EB8A28CB221A00233A0A /* SampleVerticalCell.swift in Sources */,
 				B87DD99428C2471900C8D312 /* HorizontalCollectionVC.swift in Sources */,
 				B87DD97928C2434B00C8D312 /* AppDelegate.swift in Sources */,
 				B87DD97B28C2434B00C8D312 /* SceneDelegate.swift in Sources */,
 				B87DD99028C246EC00C8D312 /* TableVC.swift in Sources */,
+				B839EB8C28CB54A000233A0A /* SampleHorizontalCell.swift in Sources */,
 				B87DD99828C2478F00C8D312 /* CompositeCollectionVC.swift in Sources */,
 				B87DD99628C2474C00C8D312 /* GridCollectionVC.swift in Sources */,
 			);

@@ -54,10 +54,10 @@ private extension TableVC {
     // Edit Mode 켜기/끄기
     @objc func tapEditing(){
         if tableview.isEditing {
-            navigationItem.rightBarButtonItem?.title = "편집"
+            navigationItem.rightBarButtonItems![1].title = "편집"
             tableview.setEditing(false, animated: true)
         } else {
-            navigationItem.rightBarButtonItem?.title = "종료"
+            navigationItem.rightBarButtonItems![1].title = "종료"
             tableview.setEditing(true, animated: true)
         }
     }
