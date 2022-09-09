@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B839EB8A28CB221A00233A0A /* SampleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B839EB8928CB221A00233A0A /* SampleCell.swift */; };
 		B87DD97928C2434B00C8D312 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87DD97828C2434B00C8D312 /* AppDelegate.swift */; };
 		B87DD97B28C2434B00C8D312 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87DD97A28C2434B00C8D312 /* SceneDelegate.swift */; };
 		B87DD97D28C2434B00C8D312 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87DD97C28C2434B00C8D312 /* MainViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B839EB8928CB221A00233A0A /* SampleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleCell.swift; sourceTree = "<group>"; };
 		B87DD97528C2434B00C8D312 /* SnapKitLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapKitLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B87DD97828C2434B00C8D312 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B87DD97A28C2434B00C8D312 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				B87DD99128C2470400C8D312 /* VerticalCollectionVC.swift */,
+				B839EB8928CB221A00233A0A /* SampleCell.swift */,
 			);
 			path = VerticalCollectionView;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			files = (
 				B87DD99228C2470400C8D312 /* VerticalCollectionVC.swift in Sources */,
 				B87DD97D28C2434B00C8D312 /* MainViewController.swift in Sources */,
+				B839EB8A28CB221A00233A0A /* SampleCell.swift in Sources */,
 				B87DD99428C2471900C8D312 /* HorizontalCollectionVC.swift in Sources */,
 				B87DD97928C2434B00C8D312 /* AppDelegate.swift in Sources */,
 				B87DD97B28C2434B00C8D312 /* SceneDelegate.swift in Sources */,

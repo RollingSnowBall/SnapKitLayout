@@ -7,6 +7,10 @@
 
 import UIKit
 
+protocol CollectionControlDelegate: AnyObject {
+    func deleteCell(indexPath: Int)
+}
+
 class MainViewController: UITabBarController {
     
     private lazy var tableview: UINavigationController = {
