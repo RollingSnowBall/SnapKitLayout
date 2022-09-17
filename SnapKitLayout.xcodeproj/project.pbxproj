@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8110C3D28D1E8380004F0FB /* IBPCollectionViewCompositionalLayout in Frameworks */ = {isa = PBXBuildFile; productRef = B8110C3C28D1E8380004F0FB /* IBPCollectionViewCompositionalLayout */; };
 		B839EB8A28CB221A00233A0A /* SampleVerticalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B839EB8928CB221A00233A0A /* SampleVerticalCell.swift */; };
 		B839EB8C28CB54A000233A0A /* SampleHorizontalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B839EB8B28CB54A000233A0A /* SampleHorizontalCell.swift */; };
 		B87DD97928C2434B00C8D312 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87DD97828C2434B00C8D312 /* AppDelegate.swift */; };
@@ -20,6 +21,18 @@
 		B87DD99428C2471900C8D312 /* HorizontalCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87DD99328C2471900C8D312 /* HorizontalCollectionVC.swift */; };
 		B87DD99628C2474C00C8D312 /* GridCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87DD99528C2474C00C8D312 /* GridCollectionVC.swift */; };
 		B87DD99828C2478F00C8D312 /* CompositeCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87DD99728C2478F00C8D312 /* CompositeCollectionVC.swift */; };
+		B87FFAA228D1FD5A00002F1B /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87FFAA128D1FD5A00002F1B /* GridViewController.swift */; };
+		B87FFAA428D1FD7D00002F1B /* InsetItemGridController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87FFAA328D1FD7D00002F1B /* InsetItemGridController.swift */; };
+		B87FFAA628D207BD00002F1B /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87FFAA528D207BD00002F1B /* TextCell.swift */; };
+		B87FFAA828D349EE00002F1B /* TwoColumnGridController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87FFAA728D349EE00002F1B /* TwoColumnGridController.swift */; };
+		B87FFAAA28D355C300002F1B /* DistinctCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87FFAA928D355C300002F1B /* DistinctCV.swift */; };
+		B87FFAAC28D359A800002F1B /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87FFAAB28D359A800002F1B /* ListCell.swift */; };
+		B87FFAAE28D5BEBC00002F1B /* DistinctSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87FFAAD28D5BEBC00002F1B /* DistinctSectionController.swift */; };
+		B8F09A6D28CC3A4E00E66190 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B8F09A6C28CC3A4E00E66190 /* Alamofire */; };
+		B8F09A7028CC3A5F00E66190 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = B8F09A6F28CC3A5F00E66190 /* Kingfisher */; };
+		B8F09A7228CC4F8700E66190 /* SampleGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F09A7128CC4F8700E66190 /* SampleGridCell.swift */; };
+		B8F09A7428CC610500E66190 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F09A7328CC610500E66190 /* Image.swift */; };
+		B8F09A7628CC7B3100E66190 /* ImageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F09A7528CC7B3100E66190 /* ImageDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +50,16 @@
 		B87DD99328C2471900C8D312 /* HorizontalCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCollectionVC.swift; sourceTree = "<group>"; };
 		B87DD99528C2474C00C8D312 /* GridCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCollectionVC.swift; sourceTree = "<group>"; };
 		B87DD99728C2478F00C8D312 /* CompositeCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeCollectionVC.swift; sourceTree = "<group>"; };
+		B87FFAA128D1FD5A00002F1B /* GridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
+		B87FFAA328D1FD7D00002F1B /* InsetItemGridController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetItemGridController.swift; sourceTree = "<group>"; };
+		B87FFAA528D207BD00002F1B /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
+		B87FFAA728D349EE00002F1B /* TwoColumnGridController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoColumnGridController.swift; sourceTree = "<group>"; };
+		B87FFAA928D355C300002F1B /* DistinctCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistinctCV.swift; sourceTree = "<group>"; };
+		B87FFAAB28D359A800002F1B /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		B87FFAAD28D5BEBC00002F1B /* DistinctSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistinctSectionController.swift; sourceTree = "<group>"; };
+		B8F09A7128CC4F8700E66190 /* SampleGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleGridCell.swift; sourceTree = "<group>"; };
+		B8F09A7328CC610500E66190 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		B8F09A7528CC7B3100E66190 /* ImageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +67,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8F09A7028CC3A5F00E66190 /* Kingfisher in Frameworks */,
+				B8110C3D28D1E8380004F0FB /* IBPCollectionViewCompositionalLayout in Frameworks */,
 				B87DD98E28C2458700C8D312 /* SnapKit in Frameworks */,
+				B8F09A6D28CC3A4E00E66190 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +141,9 @@
 			isa = PBXGroup;
 			children = (
 				B87DD99528C2474C00C8D312 /* GridCollectionVC.swift */,
+				B8F09A7128CC4F8700E66190 /* SampleGridCell.swift */,
+				B8F09A7528CC7B3100E66190 /* ImageDetailView.swift */,
+				B8F09A7328CC610500E66190 /* Image.swift */,
 			);
 			path = GridCollectionView;
 			sourceTree = "<group>";
@@ -123,6 +152,13 @@
 			isa = PBXGroup;
 			children = (
 				B87DD99728C2478F00C8D312 /* CompositeCollectionVC.swift */,
+				B87FFAA128D1FD5A00002F1B /* GridViewController.swift */,
+				B87FFAA328D1FD7D00002F1B /* InsetItemGridController.swift */,
+				B87FFAA728D349EE00002F1B /* TwoColumnGridController.swift */,
+				B87FFAA928D355C300002F1B /* DistinctCV.swift */,
+				B87FFAAD28D5BEBC00002F1B /* DistinctSectionController.swift */,
+				B87FFAA528D207BD00002F1B /* TextCell.swift */,
+				B87FFAAB28D359A800002F1B /* ListCell.swift */,
 			);
 			path = CompositeCollectionView;
 			sourceTree = "<group>";
@@ -145,6 +181,9 @@
 			name = SnapKitLayout;
 			packageProductDependencies = (
 				B87DD98D28C2458700C8D312 /* SnapKit */,
+				B8F09A6C28CC3A4E00E66190 /* Alamofire */,
+				B8F09A6F28CC3A5F00E66190 /* Kingfisher */,
+				B8110C3C28D1E8380004F0FB /* IBPCollectionViewCompositionalLayout */,
 			);
 			productName = SnapKitLayout;
 			productReference = B87DD97528C2434B00C8D312 /* SnapKitLayout.app */;
@@ -176,6 +215,9 @@
 			mainGroup = B87DD96C28C2434B00C8D312;
 			packageReferences = (
 				B87DD98C28C2458700C8D312 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				B8F09A6B28CC3A4E00E66190 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				B8F09A6E28CC3A5F00E66190 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				B8110C3B28D1E8380004F0FB /* XCRemoteSwiftPackageReference "IBPCollectionViewCompositionalLayout" */,
 			);
 			productRefGroup = B87DD97628C2434B00C8D312 /* Products */;
 			projectDirPath = "";
@@ -204,15 +246,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				B87DD99228C2470400C8D312 /* VerticalCollectionVC.swift in Sources */,
+				B87FFAAE28D5BEBC00002F1B /* DistinctSectionController.swift in Sources */,
 				B87DD97D28C2434B00C8D312 /* MainViewController.swift in Sources */,
+				B87FFAA428D1FD7D00002F1B /* InsetItemGridController.swift in Sources */,
 				B839EB8A28CB221A00233A0A /* SampleVerticalCell.swift in Sources */,
+				B87FFAAC28D359A800002F1B /* ListCell.swift in Sources */,
+				B8F09A7628CC7B3100E66190 /* ImageDetailView.swift in Sources */,
 				B87DD99428C2471900C8D312 /* HorizontalCollectionVC.swift in Sources */,
 				B87DD97928C2434B00C8D312 /* AppDelegate.swift in Sources */,
+				B8F09A7428CC610500E66190 /* Image.swift in Sources */,
 				B87DD97B28C2434B00C8D312 /* SceneDelegate.swift in Sources */,
+				B87FFAAA28D355C300002F1B /* DistinctCV.swift in Sources */,
 				B87DD99028C246EC00C8D312 /* TableVC.swift in Sources */,
 				B839EB8C28CB54A000233A0A /* SampleHorizontalCell.swift in Sources */,
+				B87FFAA228D1FD5A00002F1B /* GridViewController.swift in Sources */,
 				B87DD99828C2478F00C8D312 /* CompositeCollectionVC.swift in Sources */,
 				B87DD99628C2474C00C8D312 /* GridCollectionVC.swift in Sources */,
+				B87FFAA628D207BD00002F1B /* TextCell.swift in Sources */,
+				B87FFAA828D349EE00002F1B /* TwoColumnGridController.swift in Sources */,
+				B8F09A7228CC4F8700E66190 /* SampleGridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +474,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		B8110C3B28D1E8380004F0FB /* XCRemoteSwiftPackageReference "IBPCollectionViewCompositionalLayout" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/IBPCollectionViewCompositionalLayout.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		B87DD98C28C2458700C8D312 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
@@ -430,13 +490,44 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		B8F09A6B28CC3A4E00E66190 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		B8F09A6E28CC3A5F00E66190 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		B8110C3C28D1E8380004F0FB /* IBPCollectionViewCompositionalLayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B8110C3B28D1E8380004F0FB /* XCRemoteSwiftPackageReference "IBPCollectionViewCompositionalLayout" */;
+			productName = IBPCollectionViewCompositionalLayout;
+		};
 		B87DD98D28C2458700C8D312 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = B87DD98C28C2458700C8D312 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		B8F09A6C28CC3A4E00E66190 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B8F09A6B28CC3A4E00E66190 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		B8F09A6F28CC3A5F00E66190 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B8F09A6E28CC3A5F00E66190 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

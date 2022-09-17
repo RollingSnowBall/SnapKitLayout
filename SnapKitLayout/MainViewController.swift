@@ -102,11 +102,11 @@ class MainViewController: UITabBarController {
         super.viewDidLoad()
         
         viewControllers = [
+            composite,
             tableview,
             vertical,
             horizontal,
-            grid,
-            composite
+            grid
         ]
         
         setTabBarBackground()
